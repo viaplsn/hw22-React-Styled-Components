@@ -10,7 +10,7 @@ function App() {
       <Route path="/hw22-React-Styled-Components/SignIn" component={SignIn}/>
       <Route path="/hw22-React-Styled-Components/SignUp" component={SignUp}/>
       <Route path="/hw22-React-Styled-Components/Homepage" component={Homepage} />
-      <Route path='/hw22-React-Styled-Components'>
+      <Route path='/hw22-React-Styled-Components' exact>
         <Redirect to='/hw22-React-Styled-Components/SignUp' />
       </Route>
       <Route path="*">
