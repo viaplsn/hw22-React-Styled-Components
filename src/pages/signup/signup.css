@@ -13,6 +13,9 @@
 }
 .links__signup {
     justify-content: right;
+    margin-top: 22px;
+    width: 100%;
+    display: flex;
 }
 .error__container__signup {
     position: absolute;

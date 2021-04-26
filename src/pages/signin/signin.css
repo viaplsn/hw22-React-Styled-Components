@@ -5,6 +5,12 @@
     flex-direction: column;
     align-items: center;
 }
+.links__container {
+    margin-top: 22px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
 .error__container__signin {
     position: absolute;
     bottom: -50px;

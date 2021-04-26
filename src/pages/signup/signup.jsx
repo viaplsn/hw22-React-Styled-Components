@@ -48,7 +48,7 @@ const SignUp = (props) => {
             <Input type="password" placeholder="Password *" onValueChange = {(passwordValue) => {setPassword(passwordValue)}} check={regularPassword.test(passwordValue)} value={passwordValue} />
             <Checkbox label="I want to receive inspiration, marketing promotions and updates via email." />
             <Button text="Sign up" onButtonClick={subscribe} />
-            <div className="links__container links__signup">
+            <div className="links__signup">
                 <Link className="link" to="/SignIn">Already have an account? Sign in</Link>
             </div>
             <p className="copyright">Copyright © Your Website 2020.</p>
