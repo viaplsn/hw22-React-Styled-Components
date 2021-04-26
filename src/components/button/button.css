@@ -1,0 +1,21 @@
+.main__button {
+    font-weight: 500;
+    padding: 8px 0;
+    font-size: 14px;
+    margin-top: 36px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    width: 100%;
+    background-color: #8fc9f7;
+    border: 1px solid #8fc9f7;
+    transition: all 0.3s ease-in-out;
+}
+.main__button:hover {
+    cursor: pointer;
+    color: #8fc9f7;
+    background-color: transparent;
+}
+.main__button:active {
+    box-shadow: 0 0 5px 5px #8fc9f7;
+    transition: 0s;
+}

@@ -1,0 +1,25 @@
+.input {
+    border: 1px solid #494949;
+    border-radius: 4px;
+    background-color: transparent;
+    padding: 14px 10px;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 22px;
+    outline: none;
+}
+.input:hover, .input:focus {
+    border: 1px solid white;
+}
+.input__email, .input__password {
+    width: 100%;
+}
+.input__text {
+    width: 47.5%;
+}
+.input__checked, .input__checked:hover, .input__checked:focus {
+    border: 1px solid #8fc9f7;
+}
+.input__unchecked, .input__unchecked:hover, .input__unchecked:focus {
+    border: 1px solid #f590b2;
+}

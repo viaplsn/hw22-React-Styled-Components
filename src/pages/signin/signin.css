@@ -1,0 +1,17 @@
+.signin {
+    position: relative;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.error__container__signin {
+    position: absolute;
+    bottom: -50px;
+}
+.error__signin {
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    color: #f590b2;
+}
