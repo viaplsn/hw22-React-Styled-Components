@@ -30,10 +30,10 @@ const SignIn = (props) => {
         }
         if(emailValue === localStorage.email.split('"').join("") && passwordValue === localStorage.password.split('"').join("") && checkbox.checked) {
             localStorage.setItem('authorizationToken', true);
-            props.history.push('/Homepage')
+            props.history.push('/hw22-React-Styled-Components/Homepage')
         } else if(emailValue === localStorage.email.split('"').join("") && passwordValue === localStorage.password.split('"').join("") && !checkbox.checked) {
             localStorage.setItem('authorizationToken', false);
-            props.history.push('/Homepage')
+            props.history.push('/hw22-React-Styled-Components/Homepage')
         } else {
             errors.insertAdjacentHTML('beforeend', '<p class="error__signin">Wrong email or password</p>')
         }
@@ -51,8 +51,8 @@ const SignIn = (props) => {
             <Checkbox label="Remember me" />
             <Button text="Sign in" onButtonClick={logIn} />
             <div className="links__container">
-                <Link className="link" to="/SignIn">Forgot password?</Link>
-                <Link className="link" to="/SignUp">Don't have an account? Sign Up</Link>
+                <Link className="link" to="/hw22-React-Styled-Components/SignIn">Forgot password?</Link>
+                <Link className="link" to="/hw22-React-Styled-Components/SignUp">Don't have an account? Sign Up</Link>
             </div>
             <p className="copyright">Copyright © Your Website 2020.</p>
             <div className="error__container__signin"></div>
