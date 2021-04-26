@@ -27,7 +27,7 @@ const SignUp = (props) => {
             localStorage.setItem('lastName', JSON.stringify(lastNameValue));
             localStorage.setItem('email', JSON.stringify(emailValue));
             localStorage.setItem('password', JSON.stringify(passwordValue));
-            props.history.push('/hw22-React-Styled-Components/SignIn')
+            props.history.push('/SignIn')
         }else {
             errors.insertAdjacentHTML('beforeend', '<p class="error__signup">Please fill out all required fields correctly</p>')
         }
@@ -49,7 +49,7 @@ const SignUp = (props) => {
             <Checkbox label="I want to receive inspiration, marketing promotions and updates via email." />
             <Button text="Sign up" onButtonClick={subscribe} />
             <div className="links__container links__signup">
-                <Link className="link" to="/hw22-React-Styled-Components/SignIn">Already have an account? Sign in</Link>
+                <Link className="link" to="/SignIn">Already have an account? Sign in</Link>
             </div>
             <p className="copyright">Copyright © Your Website 2020.</p>
             <div className="error__container__signup"></div>
